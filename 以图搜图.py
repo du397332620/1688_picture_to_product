@@ -179,13 +179,13 @@ if __name__ == '__main__':
 
     # 使用代理
     proxies = {
-        'http': 'http://t19555111313413:123456@tps186.kdlapi.com:15818',
-        'https': 'https://t19555111313413:123456@tps186.kdlapi.com:15818'
+        'xxxxxx',
+        'xxxxxx'
     }
     # 不使用代理
     # proxies  = None
-    spider_thread_num = 20
-    max_price = 35
+    spider_thread_num = 20#线程数
+    max_price = 35 #最大价格
 
     finished_set = set()
     if os.path.isfile('finished.txt'):
